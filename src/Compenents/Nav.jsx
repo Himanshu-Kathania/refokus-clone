@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <div className="max-w-screen-xl p-3 mx-auto py-6 flex items-center justify-between border-b-[1px] border-zinc-700 ">
       <div className="nleft">
-        <div className="links flex gap-14  ml-20">
+        <div className="links flex gap-16  ">
           <img
             src="https://assets-global.website-files.com/6334198f239547d0f9cd84b3/63349803431f1562dccf1802_refokus%20logo.svg"
             alt=""
