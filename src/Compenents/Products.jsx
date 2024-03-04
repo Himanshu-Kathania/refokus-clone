@@ -36,7 +36,7 @@ const Products = () => {
     },
   ];
   return (
-    <div className="bg-[#161618] ">
+    <div className="bg-[#161618] mt-36 ">
       {products.map((val, index) => (
         <Product val={val} />
       ))}
