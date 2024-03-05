@@ -46,8 +46,8 @@ const Maruees = () => {
   ];
   return (
     <div className="bg-[#161618] py-20 mt-20 ">
-      {images.map((item) => (
-        <Marque imagesurl={item} />
+      {images.map((item, index) => (
+        <Marque key={index} imagesurl={item} />
       ))}
     </div>
   );

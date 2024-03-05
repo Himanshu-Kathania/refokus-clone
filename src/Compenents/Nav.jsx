@@ -12,14 +12,16 @@ const Nav = () => {
           />
           {["Home", "Work", "Culture", "", "News"].map((elem, index) =>
             elem.length === 0 ? (
-              <span className="w-[2px] h-7 bg-zinc-800"></span>
+              <span key={index} className="w-[2px] h-7 bg-zinc-800"></span>
             ) : (
               <a
+                key={index}
                 className="font-regular text-sm flex items-center gap-1"
                 href=""
               >
                 {index == 1 && (
                   <span
+                    key={index}
                     style={{ boxShadow: "0 0 0.45em #00FF19" }}
                     className="inline-block w-1 h-1 rounded-full bg-green-500"
                   ></span>
