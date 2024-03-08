@@ -64,7 +64,7 @@ const Products = () => {
               autoPlay
               muted
               loop
-              src="src\assets\Maniv-Compressed.mp4"
+              src=".\src\assets\Maniv-Compressed.mp4"
             ></video>
           </motion.div>
           <motion.div
@@ -76,7 +76,7 @@ const Products = () => {
               autoPlay
               muted
               op
-              src="src\assets\Candid Health 4_3_H.264.webm"
+              src=".\src\assets\Candid Health 4_3_H.264.webm"
             ></video>
           </motion.div>
           <motion.div
@@ -85,7 +85,12 @@ const Products = () => {
             className=" w-full h-full bg-sky-400"
           >
             {" "}
-            <video autoPlay muted op src="src\assets\jungle-4-3-.webm"></video>
+            <video
+              autoPlay
+              muted
+              op
+              src=".\src\assets\jungle-4-3-.webm"
+            ></video>
           </motion.div>
           <motion.div
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
@@ -96,7 +101,7 @@ const Products = () => {
               autoPlay
               muted
               loop
-              src="src\assets\showcase_4_3.mp4"
+              src=".\src\assets\showcase_4_3.mp4"
             ></video>
           </motion.div>
         </motion.div>
