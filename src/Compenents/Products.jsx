@@ -64,7 +64,7 @@ const Products = () => {
               autoPlay
               muted
               loop
-              src=".\src\assets\Maniv-Compressed.mp4"
+              src="..\src\assets\Maniv-Compressed.mp4"
             ></video>
           </motion.div>
           <motion.div
@@ -76,7 +76,7 @@ const Products = () => {
               autoPlay
               muted
               op
-              src=".\src\assets\Candid Health 4_3_H.264.webm"
+              src="..\src\assets\Candid Health 4_3_H.264.webm"
             ></video>
           </motion.div>
           <motion.div
@@ -89,7 +89,7 @@ const Products = () => {
               autoPlay
               muted
               op
-              src=".\src\assets\jungle-4-3-.webm"
+              src="..\src\assets\jungle-4-3-.webm"
             ></video>
           </motion.div>
           <motion.div
@@ -101,7 +101,7 @@ const Products = () => {
               autoPlay
               muted
               loop
-              src=".\src\assets\showcase_4_3.mp4"
+              src="..\src\assets\showcase_4_3.mp4"
             ></video>
           </motion.div>
         </motion.div>
