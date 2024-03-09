@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import Product from "./Product";
 import { motion } from "framer-motion";
+import stvideo from "../../public/assets/1.webm";
+import stvideo2 from "../../public/assets/2.webm";
+import stvideo3 from "../../public/assets/3.mp4";
+import stvideo4 from "../../public/assets/4.mp4";
 
 const Products = () => {
   var products = [
@@ -60,24 +64,14 @@ const Products = () => {
             animate={{ y: -pos + "rem" }}
             className=" w-full h-full bg-sky-200"
           >
-            <video
-              autoPlay
-              muted
-              loop
-              src="public\assets\Maniv-Compressed.mp4"
-            ></video>
+            <video autoPlay muted loop src={stvideo}></video>
           </motion.div>
           <motion.div
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
             animate={{ y: -pos + "rem" }}
             className=" w-full h-full bg-sky-300"
           >
-            <video
-              autoPlay
-              muted
-              op
-              src="public\assets\jungle-4-3-.webm"
-            ></video>
+            <video autoPlay muted op src={stvideo2}></video>
           </motion.div>
           <motion.div
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.64 }}
@@ -85,24 +79,14 @@ const Products = () => {
             className=" w-full h-full bg-sky-400"
           >
             {" "}
-            <video
-              autoPlay
-              muted
-              op
-              src="public\assets\Candid Health 4_3_H.264.webm"
-            ></video>
+            <video autoPlay muted op src={stvideo3}></video>
           </motion.div>
           <motion.div
             transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
             animate={{ y: -pos + "rem" }}
             className=" w-full h-full bg-sky-500"
           >
-            <video
-              autoPlay
-              muted
-              loop
-              src="public\assets\showcase_4_3.mp4"
-            ></video>
+            <video autoPlay muted loop src={stvideo4}></video>
           </motion.div>
         </motion.div>
       </div>
